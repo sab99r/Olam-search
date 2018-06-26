@@ -1,0 +1,23 @@
+{
+    "name":"Olam Search",
+    "version":"1.0",
+    "description":"Right click and search selected word in Olam.in",
+    "icons": { 
+        "16": "icon16.png",
+        "48": "icon48.png",
+       "128": "icon128.png" 
+    },
+    "browser_action":{
+        "default_icon": { 
+            "16": "icon16.png",
+            "48": "icon48.png",
+           "128": "icon128.png" 
+        }
+    },
+    "permissions":["contextMenus"],
+    "background":{
+        "scripts":["background.js"],
+        "persistent":false
+    },
+    "manifest_version":2
+}
